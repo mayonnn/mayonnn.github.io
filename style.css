@@ -1,0 +1,35 @@
+:root {
+    --serif-font: 'Comic Sans MS';
+    --shadow-color: rgba(0, 0, 0, 0.5);
+    --border-color: rgba(0, 0, 0, 0.1);
+}
+
+p, h1, h2, h3, h4, h5, h6, a {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+body {
+    margin: 0;
+    font-family: var(--serif-font);
+    background-color: #ff9999;
+    font-size: 4rem;
+}
+
+#home {
+    background-color: #ffcc99;
+    height: 40rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+
+#about {
+    padding: 20px;
+    background-color: #99ccff;
+    height: 40rem;
+}
