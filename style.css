@@ -9,6 +9,11 @@ p, h1, h2, h3, h4, h5, h6, a {
     padding-right: 1rem;
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     font-family: var(--serif-font);
@@ -18,18 +23,41 @@ body {
 
 #home {
     background-color: #ffcc99;
-    height: 40rem;
+    margin: 0;
 }
 
 header {
+    height: fit-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
+
 }
-  
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
 
 #about {
-    padding: 20px;
-    background-color: #99ccff;
-    height: 40rem;
+    margin: 0;
+    background-color: hsl(210, 100%, 80%);
+}
+
+.artwork {
+    max-width: 30rem;
+    max-height: 30rem;
+    margin: 1rem;
+}
+
+.artwork-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    padding: 1rem;
+    gap: 0.01rem;
+    align-items: center;
+    align-self: center;
+    justify-items: center;
+    justify-content: center;
 }
